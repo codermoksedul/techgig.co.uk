@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom color here */
+
+@import "custom.scss";
+@import "fonts.scss";
+body {
+  color: #fff;
+  font-family: "Poppins", sans-serif !important;
+}
+.container {
+  max-width: 1280px;
+  margin: auto;
+  padding: 0px 10px;
+}

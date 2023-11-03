@@ -1,0 +1,9 @@
+.hero_image {
+  transition: all 1s;
+  animation: 40s hero_image_animate infinite linear;
+}
+@keyframes hero_image_animate {
+  to {
+    transform: rotate(360deg);
+  }
+}
